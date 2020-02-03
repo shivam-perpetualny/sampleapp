@@ -5,7 +5,6 @@ files:
     destination: /var/www/html
     overwrite: true
 hooks:
-
   AfterInstall:
     - location: installDependencies.sh
       timeout: 300
