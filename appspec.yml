@@ -9,3 +9,6 @@ hooks:
     - location: installDependencies.sh
       timeout: 300
       runas: root
+    - location: restartTheServer.js
+      timeout: 30
+      runas: root
