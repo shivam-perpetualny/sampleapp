@@ -2,13 +2,5 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html
+    destination: /testsample
     overwrite: true
-hooks:
-  AfterInstall:
-    - location: installDependencies.sh
-      timeout: 300
-      runas: root
-    - location: restartTheServer.js
-      timeout: 30
-      runas: root
