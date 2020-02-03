@@ -1,2 +1,1 @@
-ls
-cd sampleapp && npm i
+npm i
